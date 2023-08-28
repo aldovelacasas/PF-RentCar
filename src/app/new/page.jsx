@@ -2,7 +2,7 @@ import ProductForm from "@/components/productform"
 
 function NewPage() {
   return (
-    <div className="flex justify-center items-center h-full ">
+    <div>
      <ProductForm />
     </div>
   )
