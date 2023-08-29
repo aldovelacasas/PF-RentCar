@@ -3,7 +3,7 @@ import {useState} from 'react'
 import axios from 'axios'
 
 function ProductForm() {
-    console.log("eze");
+    
     const [product,setProduct]=useState({
         name:"",
         model:"",
