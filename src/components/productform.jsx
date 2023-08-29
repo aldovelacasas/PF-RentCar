@@ -29,7 +29,7 @@ function ProductForm() {
     const res = await axios.post("/api/products", product);
     console.log(res);
   };
-  console.log("Hola Ignacio");
+  console.log("Ezequiel no me lo canceles");
 
   return (
     <form
