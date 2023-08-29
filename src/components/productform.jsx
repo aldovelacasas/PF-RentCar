@@ -3,6 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 
 function ProductForm() {
+<<<<<<< HEAD
   const [product, setProduct] = useState({
     name: "",
     model: "",
@@ -17,6 +18,23 @@ function ProductForm() {
 
   const handleChange = (e) => {
     setProduct({
+=======
+    
+    const [product,setProduct]=useState({
+        name:"",
+        model:"",
+        year:"",
+        type:"",
+        capacity:"",
+        transmission:"",
+        description:"",
+        price: "",
+        image:"",
+    })
+
+    const handleChange = (e) => {
+      setProduct({
+>>>>>>> bb9d3f9adac71ae8085d170b2f310f44994288f3
       ...product,
       [e.target.name]: e.target.value,
     });
